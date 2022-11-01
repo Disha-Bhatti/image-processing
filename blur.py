@@ -10,7 +10,10 @@ import cv2
 # ap.add_argument("-t", "--threshold", type=float, default=100.0,
 # 	help="focus measures that fall below this value will be considered 'blurry'")
 # args = vars(ap.parse_args())
+############################# folder iterate ######
 
+for i, img in enumerate(os.listdir(directory)):
+	print(i,img)
 
 # for imagePath in paths.list_images(args["images"]):
 	# load the image, convert it to grayscale, and compute the
