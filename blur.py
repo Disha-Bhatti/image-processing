@@ -12,8 +12,8 @@ import cv2
 # args = vars(ap.parse_args())
 ############################# folder iterate ######
 
-for i, img in enumerate(os.listdir(directory)):
-	print(i,img)
+# for i, img in enumerate(os.listdir(directory)):
+# 	print(i,img)
 
 # for imagePath in paths.list_images(args["images"]):
 	# load the image, convert it to grayscale, and compute the
